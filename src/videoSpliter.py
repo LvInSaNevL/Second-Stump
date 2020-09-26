@@ -1,7 +1,14 @@
+import logging
+import subprocess
+import math
+import time
+from string import Template
+
 from scenedetect import VideoManager
 from scenedetect import SceneManager
 from scenedetect import video_splitter
 from scenedetect.detectors import ContentDetector
+from scenedetect.platform import tqdm, invoke_command, CommandTooLong
 
 # Mostly boiler plate code provided by SceneDetect
 # https://pyscenedetect.readthedocs.io/en/latest/examples/usage-python/
@@ -31,6 +38,9 @@ def split_video(input_video_paths, scene_list, output_file_template,
     if not input_video_paths or not scene_list:
         return
 
+    logging.info('Splitting input video%s using mkvmerge, output path template:\n  %s',
+                 's' if len(input_video_paths) > 1 else '', output_file_template)
+
     ret_val = None
     # mkvmerge automatically appends '-$SCENE_NUMBER'.
     output_file_name = output_file_template.replace('-${SCENE_NUMBER}', '')
@@ -47,18 +57,26 @@ def split_video(input_video_paths, scene_list, output_file_template,
         call_list += [
             '-o', output_file_name,
             '--split',
+            #'timecodes:%s' % ','.join(
+            #    [start_time.get_timecode() for start_time, _ in scene_list[1:]]),
             'parts:%s' % ','.join(
                 ['%s-%s' % (start_time.get_timecode(), end_time.get_timecode())
                  for start_time, end_time in scene_list]),
-            ' +'.join(input_video_paths)]
+            "data/rawVideos/{}".format(input_video_paths)]
         total_frames = scene_list[-1][1].get_frames() - scene_list[0][0].get_frames()
         processing_start_time = time.time()
         ret_val = invoke_command(call_list)
         if not suppress_output:
             print('')
+            logging.info('Average processing speed %.2f frames/sec.',
+                         float(total_frames) / (time.time() - processing_start_time))
     except CommandTooLong:
-        logging.error(COMMAND_TOO_LONG_STRING)
+        logging.error("COMMAND_TOO_LONG_STRING: {}".format(call_list))
+    except OSError:
+        logging.error('mkvmerge could not be found on the system.'
+                      ' Please install mkvmerge to enable video output support.')
     if ret_val is not None and ret_val != 0:
+        logging.error('Error splitting video (mkvmerge returned %d).', ret_val)
 
 # Handles cutting the complilation into smaller, useable chunks
 def cut_video(video_path):
@@ -66,9 +84,9 @@ def cut_video(video_path):
     print("{0} number of scenes detected: {1}".format(video_path, len(scenes)))
     # Finally splits the video into clips
     split_video(
-        "data/rawVideos/{}".format(video_path),
+        video_path,
         scenes,
-        "data/rawClipsVz/Scenes\\Scene.mkv",
+        "data/rawClips/{}\\Scene.mkv".format(video_path),
         video_path,
         suppress_output=False,
     )
