@@ -1,6 +1,8 @@
 # Second Stump specifics
+data/*.mp4
 data/rawClips
 data/rawVideos
+data/auth.json
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudio,visualstudiocode

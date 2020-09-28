@@ -5,9 +5,13 @@ FROM python:3
 
 # Apt dependencies
 youtube-dl
+ffmpeg
 
 # Pip3 dependencies
 scenedetect[opencv]
+schedule
+praw
+moviepy
 
 # MKV Tools installation
 sudo add-apt-repository "deb https://mkvtoolnix.download/ubuntu/ xenial main"
