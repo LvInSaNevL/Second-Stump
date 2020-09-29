@@ -14183,3 +14183,269 @@ Deleting original file data/rawClips/icbcu0.mp4.fdash-audio_0_120721 (pass -k to
                               data/rawClips/j0v246.mp4 || data/rawClips/j0v246.mp4 || data/rawClips/j0v246.mp4 || data/rawClips/j0v246.mp4 || 
                               data/rawClips/j18ih2.mp4 || data/rawClips/j18ih2.mp4 || data/rawClips/j18ih2.mp4 || data/rawClips/j18ih2.mp4 || 
                               
+[2020-09-29 14:59:42.589629]: Expected video length is 0:04:54
+[2020-09-29 14:59:47.473706]: Exception thrown, continuing with process. Exception: could not convert string to float: 'N/A\n'
+[2020-09-29 14:59:49.580956]: Actual video length is 0:04:54 and contains 18 videos. All file paths are listed below
+[2020-09-29 14:59:49.581435]: data/rawClips/j0rquu.mp4 || data/rawClips/j0rquu.mp4 || data/rawClips/j0rquu.mp4 || data/rawClips/j0rquu.mp4 || 
+                              data/rawClips/j1gakx.mp4 || data/rawClips/j1gakx.mp4 || data/rawClips/j1gakx.mp4 || data/rawClips/j1gakx.mp4 || 
+                              data/rawClips/j19xpw.mp4 || data/rawClips/j19xpw.mp4 || data/rawClips/j19xpw.mp4 || data/rawClips/j19xpw.mp4 || 
+                              data/rawClips/is0olm.mp4 || data/rawClips/is0olm.mp4 || data/rawClips/is0olm.mp4 || data/rawClips/is0olm.mp4 || 
+                              data/rawClips/j13mpp.mp4 || data/rawClips/j13mpp.mp4 || data/rawClips/j13mpp.mp4 || data/rawClips/j13mpp.mp4 || 
+                              data/rawClips/ivvkgf.mp4 || data/rawClips/ivvkgf.mp4 || data/rawClips/ivvkgf.mp4 || data/rawClips/ivvkgf.mp4 || 
+                              data/rawClips/j1eihq.mp4 || data/rawClips/j1eihq.mp4 || data/rawClips/j1eihq.mp4 || data/rawClips/j1eihq.mp4 || 
+                              data/rawClips/j1az6q.mp4 || data/rawClips/j1az6q.mp4 || data/rawClips/j1az6q.mp4 || data/rawClips/j1az6q.mp4 || 
+                              data/rawClips/j1emzo.mp4 || data/rawClips/j1emzo.mp4 || data/rawClips/j1emzo.mp4 || data/rawClips/j1emzo.mp4 || 
+                              data/rawClips/ir6fri.mp4 || data/rawClips/ir6fri.mp4 || data/rawClips/ir6fri.mp4 || data/rawClips/ir6fri.mp4 || 
+                              data/rawClips/ihnndb.mp4 || data/rawClips/ihnndb.mp4 || data/rawClips/ihnndb.mp4 || data/rawClips/ihnndb.mp4 || 
+                              data/rawClips/j0t8wr.mp4 || data/rawClips/j0t8wr.mp4 || data/rawClips/j0t8wr.mp4 || data/rawClips/j0t8wr.mp4 || 
+                              data/rawClips/ij2os1.mp4 || data/rawClips/ij2os1.mp4 || data/rawClips/ij2os1.mp4 || data/rawClips/ij2os1.mp4 || 
+                              data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || 
+                              data/rawClips/j1cb52.mp4 || data/rawClips/j1cb52.mp4 || data/rawClips/j1cb52.mp4 || data/rawClips/j1cb52.mp4 || 
+                              data/rawClips/j0h7u7.mp4 || data/rawClips/j0h7u7.mp4 || data/rawClips/j0h7u7.mp4 || data/rawClips/j0h7u7.mp4 || 
+                              data/rawClips/j0qkry.mp4 || data/rawClips/j0qkry.mp4 || data/rawClips/j0qkry.mp4 || data/rawClips/j0qkry.mp4 || 
+                              data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || 
+                              
+[2020-09-29 15:21:23.498853]: Expected video length is 0:04:29
+[2020-09-29 15:21:24.933684]: Actual video length is 0:04:29 and contains 12 videos. All file paths are listed below
+[2020-09-29 15:21:24.933992]: data/rawClips/ig4a8r.mp4 || data/rawClips/ig4a8r.mp4 || data/rawClips/ig4a8r.mp4 || data/rawClips/ig4a8r.mp4 || 
+                              data/rawClips/j10706.mp4 || data/rawClips/j10706.mp4 || data/rawClips/j10706.mp4 || data/rawClips/j10706.mp4 || 
+                              data/rawClips/j1jeim.mp4 || data/rawClips/j1jeim.mp4 || data/rawClips/j1jeim.mp4 || data/rawClips/j1jeim.mp4 || 
+                              data/rawClips/imr2we.mp4 || data/rawClips/imr2we.mp4 || data/rawClips/imr2we.mp4 || data/rawClips/imr2we.mp4 || 
+                              data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || 
+                              data/rawClips/j111iz.mp4 || data/rawClips/j111iz.mp4 || data/rawClips/j111iz.mp4 || data/rawClips/j111iz.mp4 || 
+                              data/rawClips/j13gd7.mp4 || data/rawClips/j13gd7.mp4 || data/rawClips/j13gd7.mp4 || data/rawClips/j13gd7.mp4 || 
+                              data/rawClips/izbs4v.mp4 || data/rawClips/izbs4v.mp4 || data/rawClips/izbs4v.mp4 || data/rawClips/izbs4v.mp4 || 
+                              data/rawClips/ivfk0r.mp4 || data/rawClips/ivfk0r.mp4 || data/rawClips/ivfk0r.mp4 || data/rawClips/ivfk0r.mp4 || 
+                              data/rawClips/j0x4oi.mp4 || data/rawClips/j0x4oi.mp4 || data/rawClips/j0x4oi.mp4 || data/rawClips/j0x4oi.mp4 || 
+                              data/rawClips/ijv38m.mp4 || data/rawClips/ijv38m.mp4 || data/rawClips/ijv38m.mp4 || data/rawClips/ijv38m.mp4 || 
+                              data/rawClips/j0yipe.mp4 || data/rawClips/j0yipe.mp4 || data/rawClips/j0yipe.mp4 || data/rawClips/j0yipe.mp4 || 
+                              
+[2020-09-29 15:24:36.544333]: Expected video length is 0:04:35
+[2020-09-29 15:24:37.901449]: Actual video length is 0:04:35 and contains 12 videos. All file paths are listed below
+[2020-09-29 15:24:37.901697]: data/rawClips/j0tsf3.mp4 || data/rawClips/j0tsf3.mp4 || data/rawClips/j0tsf3.mp4 || data/rawClips/j0tsf3.mp4 || 
+                              data/rawClips/j0if3y.mp4 || data/rawClips/j0if3y.mp4 || data/rawClips/j0if3y.mp4 || data/rawClips/j0if3y.mp4 || 
+                              data/rawClips/j1az6q.mp4 || data/rawClips/j1az6q.mp4 || data/rawClips/j1az6q.mp4 || data/rawClips/j1az6q.mp4 || 
+                              data/rawClips/j1fwfw.mp4 || data/rawClips/j1fwfw.mp4 || data/rawClips/j1fwfw.mp4 || data/rawClips/j1fwfw.mp4 || 
+                              data/rawClips/izya99.mp4 || data/rawClips/izya99.mp4 || data/rawClips/izya99.mp4 || data/rawClips/izya99.mp4 || 
+                              data/rawClips/iquow3.mp4 || data/rawClips/iquow3.mp4 || data/rawClips/iquow3.mp4 || data/rawClips/iquow3.mp4 || 
+                              data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || 
+                              data/rawClips/iu090a.mp4 || data/rawClips/iu090a.mp4 || data/rawClips/iu090a.mp4 || data/rawClips/iu090a.mp4 || 
+                              data/rawClips/if10ps.mp4 || data/rawClips/if10ps.mp4 || data/rawClips/if10ps.mp4 || data/rawClips/if10ps.mp4 || 
+                              data/rawClips/izgygd.mp4 || data/rawClips/izgygd.mp4 || data/rawClips/izgygd.mp4 || data/rawClips/izgygd.mp4 || 
+                              data/rawClips/ipyi1s.mp4 || data/rawClips/ipyi1s.mp4 || data/rawClips/ipyi1s.mp4 || data/rawClips/ipyi1s.mp4 || 
+                              data/rawClips/ixaddm.mp4 || data/rawClips/ixaddm.mp4 || data/rawClips/ixaddm.mp4 || data/rawClips/ixaddm.mp4 || 
+                              
+[2020-09-29 15:24:57.013298]: Expected video length is 0:04:57
+[2020-09-29 15:24:58.832787]: Actual video length is 0:04:57 and contains 18 videos. All file paths are listed below
+[2020-09-29 15:24:58.833173]: data/rawClips/j1h3cy.mp4 || data/rawClips/j1h3cy.mp4 || data/rawClips/j1h3cy.mp4 || data/rawClips/j1h3cy.mp4 || 
+                              data/rawClips/j0hrr2.mp4 || data/rawClips/j0hrr2.mp4 || data/rawClips/j0hrr2.mp4 || data/rawClips/j0hrr2.mp4 || 
+                              data/rawClips/ihnndb.mp4 || data/rawClips/ihnndb.mp4 || data/rawClips/ihnndb.mp4 || data/rawClips/ihnndb.mp4 || 
+                              data/rawClips/j0qz7q.mp4 || data/rawClips/j0qz7q.mp4 || data/rawClips/j0qz7q.mp4 || data/rawClips/j0qz7q.mp4 || 
+                              data/rawClips/j09z9a.mp4 || data/rawClips/j09z9a.mp4 || data/rawClips/j09z9a.mp4 || data/rawClips/j09z9a.mp4 || 
+                              data/rawClips/j0krdc.mp4 || data/rawClips/j0krdc.mp4 || data/rawClips/j0krdc.mp4 || data/rawClips/j0krdc.mp4 || 
+                              data/rawClips/j1k0fo.mp4 || data/rawClips/j1k0fo.mp4 || data/rawClips/j1k0fo.mp4 || data/rawClips/j1k0fo.mp4 || 
+                              data/rawClips/j1a7qr.mp4 || data/rawClips/j1a7qr.mp4 || data/rawClips/j1a7qr.mp4 || data/rawClips/j1a7qr.mp4 || 
+                              data/rawClips/izkv18.mp4 || data/rawClips/izkv18.mp4 || data/rawClips/izkv18.mp4 || data/rawClips/izkv18.mp4 || 
+                              data/rawClips/ijv38m.mp4 || data/rawClips/ijv38m.mp4 || data/rawClips/ijv38m.mp4 || data/rawClips/ijv38m.mp4 || 
+                              data/rawClips/ixptjo.mp4 || data/rawClips/ixptjo.mp4 || data/rawClips/ixptjo.mp4 || data/rawClips/ixptjo.mp4 || 
+                              data/rawClips/izgygd.mp4 || data/rawClips/izgygd.mp4 || data/rawClips/izgygd.mp4 || data/rawClips/izgygd.mp4 || 
+                              data/rawClips/j1gecm.mp4 || data/rawClips/j1gecm.mp4 || data/rawClips/j1gecm.mp4 || data/rawClips/j1gecm.mp4 || 
+                              data/rawClips/inrifp.mp4 || data/rawClips/inrifp.mp4 || data/rawClips/inrifp.mp4 || data/rawClips/inrifp.mp4 || 
+                              data/rawClips/j0alrb.mp4 || data/rawClips/j0alrb.mp4 || data/rawClips/j0alrb.mp4 || data/rawClips/j0alrb.mp4 || 
+                              data/rawClips/j1h0ti.mp4 || data/rawClips/j1h0ti.mp4 || data/rawClips/j1h0ti.mp4 || data/rawClips/j1h0ti.mp4 || 
+                              data/rawClips/j0t8wr.mp4 || data/rawClips/j0t8wr.mp4 || data/rawClips/j0t8wr.mp4 || data/rawClips/j0t8wr.mp4 || 
+                              data/rawClips/ilyrtt.mp4 || data/rawClips/ilyrtt.mp4 || data/rawClips/ilyrtt.mp4 || data/rawClips/ilyrtt.mp4 || 
+                              
+[2020-09-29 15:26:02.042257]: Expected video length is 0:04:25
+[2020-09-29 15:26:02.616249]: Actual video length is 0:04:25 and contains 5 videos. All file paths are listed below
+[2020-09-29 15:26:02.616506]: data/rawClips/j1hs1h.mp4 || data/rawClips/j1hs1h.mp4 || data/rawClips/j1hs1h.mp4 || data/rawClips/j1hs1h.mp4 || 
+                              data/rawClips/j17iek.mp4 || data/rawClips/j17iek.mp4 || data/rawClips/j17iek.mp4 || data/rawClips/j17iek.mp4 || 
+                              data/rawClips/j17r8g.mp4 || data/rawClips/j17r8g.mp4 || data/rawClips/j17r8g.mp4 || data/rawClips/j17r8g.mp4 || 
+                              data/rawClips/izxxc7.mp4 || data/rawClips/izxxc7.mp4 || data/rawClips/izxxc7.mp4 || data/rawClips/izxxc7.mp4 || 
+                              data/rawClips/j1c5r4.mp4 || data/rawClips/j1c5r4.mp4 || data/rawClips/j1c5r4.mp4 || data/rawClips/j1c5r4.mp4 || 
+                              
+[2020-09-29 15:26:27.190955]: Expected video length is 0:04:15
+[2020-09-29 15:26:29.099332]: Actual video length is 0:04:15 and contains 15 videos. All file paths are listed below
+[2020-09-29 15:26:29.099776]: data/rawClips/j10ssl.mp4 || data/rawClips/j10ssl.mp4 || data/rawClips/j10ssl.mp4 || data/rawClips/j10ssl.mp4 || 
+                              data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || 
+                              data/rawClips/iwc31d.mp4 || data/rawClips/iwc31d.mp4 || data/rawClips/iwc31d.mp4 || data/rawClips/iwc31d.mp4 || 
+                              data/rawClips/j1i2z1.mp4 || data/rawClips/j1i2z1.mp4 || data/rawClips/j1i2z1.mp4 || data/rawClips/j1i2z1.mp4 || 
+                              data/rawClips/ig4a8r.mp4 || data/rawClips/ig4a8r.mp4 || data/rawClips/ig4a8r.mp4 || data/rawClips/ig4a8r.mp4 || 
+                              data/rawClips/j0ttpb.mp4 || data/rawClips/j0ttpb.mp4 || data/rawClips/j0ttpb.mp4 || data/rawClips/j0ttpb.mp4 || 
+                              data/rawClips/ioczmh.mp4 || data/rawClips/ioczmh.mp4 || data/rawClips/ioczmh.mp4 || data/rawClips/ioczmh.mp4 || 
+                              data/rawClips/io3xeu.mp4 || data/rawClips/io3xeu.mp4 || data/rawClips/io3xeu.mp4 || data/rawClips/io3xeu.mp4 || 
+                              data/rawClips/izf1yj.mp4 || data/rawClips/izf1yj.mp4 || data/rawClips/izf1yj.mp4 || data/rawClips/izf1yj.mp4 || 
+                              data/rawClips/j0up6q.mp4 || data/rawClips/j0up6q.mp4 || data/rawClips/j0up6q.mp4 || data/rawClips/j0up6q.mp4 || 
+                              data/rawClips/j0qz7q.mp4 || data/rawClips/j0qz7q.mp4 || data/rawClips/j0qz7q.mp4 || data/rawClips/j0qz7q.mp4 || 
+                              data/rawClips/ir2vw9.mp4 || data/rawClips/ir2vw9.mp4 || data/rawClips/ir2vw9.mp4 || data/rawClips/ir2vw9.mp4 || 
+                              data/rawClips/izve6l.mp4 || data/rawClips/izve6l.mp4 || data/rawClips/izve6l.mp4 || data/rawClips/izve6l.mp4 || 
+                              data/rawClips/ipyi1s.mp4 || data/rawClips/ipyi1s.mp4 || data/rawClips/ipyi1s.mp4 || data/rawClips/ipyi1s.mp4 || 
+                              data/rawClips/j0ui3b.mp4 || data/rawClips/j0ui3b.mp4 || data/rawClips/j0ui3b.mp4 || data/rawClips/j0ui3b.mp4 || 
+                              
+[2020-09-29 15:27:45.602968]: Expected video length is 0:04:01
+[2020-09-29 15:27:47.241851]: Actual video length is 0:04:01 and contains 13 videos. All file paths are listed below
+[2020-09-29 15:27:47.242170]: data/rawClips/j048ty.mp4 || data/rawClips/j048ty.mp4 || data/rawClips/j048ty.mp4 || data/rawClips/j048ty.mp4 || 
+                              data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || 
+                              data/rawClips/ir2vw9.mp4 || data/rawClips/ir2vw9.mp4 || data/rawClips/ir2vw9.mp4 || data/rawClips/ir2vw9.mp4 || 
+                              data/rawClips/ir4zrd.mp4 || data/rawClips/ir4zrd.mp4 || data/rawClips/ir4zrd.mp4 || data/rawClips/ir4zrd.mp4 || 
+                              data/rawClips/ium4mp.mp4 || data/rawClips/ium4mp.mp4 || data/rawClips/ium4mp.mp4 || data/rawClips/ium4mp.mp4 || 
+                              data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || 
+                              data/rawClips/j1gecm.mp4 || data/rawClips/j1gecm.mp4 || data/rawClips/j1gecm.mp4 || data/rawClips/j1gecm.mp4 || 
+                              data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || 
+                              data/rawClips/j17n7v.mp4 || data/rawClips/j17n7v.mp4 || data/rawClips/j17n7v.mp4 || data/rawClips/j17n7v.mp4 || 
+                              data/rawClips/isbewx.mp4 || data/rawClips/isbewx.mp4 || data/rawClips/isbewx.mp4 || data/rawClips/isbewx.mp4 || 
+                              data/rawClips/j0nem9.mp4 || data/rawClips/j0nem9.mp4 || data/rawClips/j0nem9.mp4 || data/rawClips/j0nem9.mp4 || 
+                              data/rawClips/iw1uno.mp4 || data/rawClips/iw1uno.mp4 || data/rawClips/iw1uno.mp4 || data/rawClips/iw1uno.mp4 || 
+                              data/rawClips/j16tdi.mp4 || data/rawClips/j16tdi.mp4 || data/rawClips/j16tdi.mp4 || data/rawClips/j16tdi.mp4 || 
+                              
+[2020-09-29 15:32:56.578113]: Expected video length is 0:04:50
+[2020-09-29 15:32:57.925184]: Actual video length is 0:04:50 and contains 11 videos. All file paths are listed below
+[2020-09-29 15:32:57.925459]: data/rawClips/j13842.mp4 || data/rawClips/j13842.mp4 || data/rawClips/j13842.mp4 || data/rawClips/j13842.mp4 || 
+                              data/rawClips/j1d96l.mp4 || data/rawClips/j1d96l.mp4 || data/rawClips/j1d96l.mp4 || data/rawClips/j1d96l.mp4 || 
+                              data/rawClips/ium4mp.mp4 || data/rawClips/ium4mp.mp4 || data/rawClips/ium4mp.mp4 || data/rawClips/ium4mp.mp4 || 
+                              data/rawClips/iewohc.mp4 || data/rawClips/iewohc.mp4 || data/rawClips/iewohc.mp4 || data/rawClips/iewohc.mp4 || 
+                              data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || 
+                              data/rawClips/j1g9ce.mp4 || data/rawClips/j1g9ce.mp4 || data/rawClips/j1g9ce.mp4 || data/rawClips/j1g9ce.mp4 || 
+                              data/rawClips/iw0pck.mp4 || data/rawClips/iw0pck.mp4 || data/rawClips/iw0pck.mp4 || data/rawClips/iw0pck.mp4 || 
+                              data/rawClips/j0y698.mp4 || data/rawClips/j0y698.mp4 || data/rawClips/j0y698.mp4 || data/rawClips/j0y698.mp4 || 
+                              data/rawClips/j1ew7q.mp4 || data/rawClips/j1ew7q.mp4 || data/rawClips/j1ew7q.mp4 || data/rawClips/j1ew7q.mp4 || 
+                              data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || 
+                              data/rawClips/j11gv2.mp4 || data/rawClips/j11gv2.mp4 || data/rawClips/j11gv2.mp4 || data/rawClips/j11gv2.mp4 || 
+                              
+[2020-09-29 15:35:19.579211]: Expected video length is 0:04:03
+[2020-09-29 15:35:20.633479]: Actual video length is 0:04:03 and contains 8 videos. All file paths are listed below
+[2020-09-29 15:35:20.633781]: data/rawClips/j0yfse.mp4 || data/rawClips/j0yfse.mp4 || data/rawClips/j0yfse.mp4 || data/rawClips/j0yfse.mp4 || 
+                              data/rawClips/j1hs1h.mp4 || data/rawClips/j1hs1h.mp4 || data/rawClips/j1hs1h.mp4 || data/rawClips/j1hs1h.mp4 || 
+                              data/rawClips/j13842.mp4 || data/rawClips/j13842.mp4 || data/rawClips/j13842.mp4 || data/rawClips/j13842.mp4 || 
+                              data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || 
+                              data/rawClips/ijmwrg.mp4 || data/rawClips/ijmwrg.mp4 || data/rawClips/ijmwrg.mp4 || data/rawClips/ijmwrg.mp4 || 
+                              data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || 
+                              data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || 
+                              data/rawClips/j04o7n.mp4 || data/rawClips/j04o7n.mp4 || data/rawClips/j04o7n.mp4 || data/rawClips/j04o7n.mp4 || 
+                              
+[2020-09-29 15:36:18.000121]: Expected video length is 0:04:01
+[2020-09-29 15:36:19.376263]: Actual video length is 0:04:01 and contains 12 videos. All file paths are listed below
+[2020-09-29 15:36:19.376552]: data/rawClips/iijsgp.mp4 || data/rawClips/iijsgp.mp4 || data/rawClips/iijsgp.mp4 || data/rawClips/iijsgp.mp4 || 
+                              data/rawClips/iyy9ts.mp4 || data/rawClips/iyy9ts.mp4 || data/rawClips/iyy9ts.mp4 || data/rawClips/iyy9ts.mp4 || 
+                              data/rawClips/j0c0dj.mp4 || data/rawClips/j0c0dj.mp4 || data/rawClips/j0c0dj.mp4 || data/rawClips/j0c0dj.mp4 || 
+                              data/rawClips/j1g83j.mp4 || data/rawClips/j1g83j.mp4 || data/rawClips/j1g83j.mp4 || data/rawClips/j1g83j.mp4 || 
+                              data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || 
+                              data/rawClips/j08bgn.mp4 || data/rawClips/j08bgn.mp4 || data/rawClips/j08bgn.mp4 || data/rawClips/j08bgn.mp4 || 
+                              data/rawClips/ipccdb.mp4 || data/rawClips/ipccdb.mp4 || data/rawClips/ipccdb.mp4 || data/rawClips/ipccdb.mp4 || 
+                              data/rawClips/irrjah.mp4 || data/rawClips/irrjah.mp4 || data/rawClips/irrjah.mp4 || data/rawClips/irrjah.mp4 || 
+                              data/rawClips/j048ty.mp4 || data/rawClips/j048ty.mp4 || data/rawClips/j048ty.mp4 || data/rawClips/j048ty.mp4 || 
+                              data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || 
+                              data/rawClips/j118gr.mp4 || data/rawClips/j118gr.mp4 || data/rawClips/j118gr.mp4 || data/rawClips/j118gr.mp4 || 
+                              data/rawClips/ih2b3w.mp4 || data/rawClips/ih2b3w.mp4 || data/rawClips/ih2b3w.mp4 || data/rawClips/ih2b3w.mp4 || 
+                              
+[2020-09-29 15:37:09.947209]: Expected video length is 0:04:00
+[2020-09-29 15:37:11.413324]: Actual video length is 0:04:00 and contains 11 videos. All file paths are listed below
+[2020-09-29 15:37:11.413631]: data/rawClips/inrifp.mp4 || data/rawClips/inrifp.mp4 || data/rawClips/inrifp.mp4 || data/rawClips/inrifp.mp4 || 
+                              data/rawClips/j1g9ub.mp4 || data/rawClips/j1g9ub.mp4 || data/rawClips/j1g9ub.mp4 || data/rawClips/j1g9ub.mp4 || 
+                              data/rawClips/j1bobu.mp4 || data/rawClips/j1bobu.mp4 || data/rawClips/j1bobu.mp4 || data/rawClips/j1bobu.mp4 || 
+                              data/rawClips/j0yipe.mp4 || data/rawClips/j0yipe.mp4 || data/rawClips/j0yipe.mp4 || data/rawClips/j0yipe.mp4 || 
+                              data/rawClips/j1g83j.mp4 || data/rawClips/j1g83j.mp4 || data/rawClips/j1g83j.mp4 || data/rawClips/j1g83j.mp4 || 
+                              data/rawClips/izhu6d.mp4 || data/rawClips/izhu6d.mp4 || data/rawClips/izhu6d.mp4 || data/rawClips/izhu6d.mp4 || 
+                              data/rawClips/j0pdod.mp4 || data/rawClips/j0pdod.mp4 || data/rawClips/j0pdod.mp4 || data/rawClips/j0pdod.mp4 || 
+                              data/rawClips/ixpv31.mp4 || data/rawClips/ixpv31.mp4 || data/rawClips/ixpv31.mp4 || data/rawClips/ixpv31.mp4 || 
+                              data/rawClips/j0kjtm.mp4 || data/rawClips/j0kjtm.mp4 || data/rawClips/j0kjtm.mp4 || data/rawClips/j0kjtm.mp4 || 
+                              data/rawClips/iohhnw.mp4 || data/rawClips/iohhnw.mp4 || data/rawClips/iohhnw.mp4 || data/rawClips/iohhnw.mp4 || 
+                              data/rawClips/j0lb4m.mp4 || data/rawClips/j0lb4m.mp4 || data/rawClips/j0lb4m.mp4 || data/rawClips/j0lb4m.mp4 || 
+                              
+[2020-09-29 15:37:30.084493]: Expected video length is 0:04:03
+[2020-09-29 15:37:31.642352]: Actual video length is 0:04:03 and contains 13 videos. All file paths are listed below
+[2020-09-29 15:37:31.642648]: data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || data/rawClips/j1eb7c.mp4 || 
+                              data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || data/rawClips/igj5on.mp4 || 
+                              data/rawClips/iqurym.mp4 || data/rawClips/iqurym.mp4 || data/rawClips/iqurym.mp4 || data/rawClips/iqurym.mp4 || 
+                              data/rawClips/j05gn3.mp4 || data/rawClips/j05gn3.mp4 || data/rawClips/j05gn3.mp4 || data/rawClips/j05gn3.mp4 || 
+                              data/rawClips/imf3r1.mp4 || data/rawClips/imf3r1.mp4 || data/rawClips/imf3r1.mp4 || data/rawClips/imf3r1.mp4 || 
+                              data/rawClips/j08j6d.mp4 || data/rawClips/j08j6d.mp4 || data/rawClips/j08j6d.mp4 || data/rawClips/j08j6d.mp4 || 
+                              data/rawClips/istl9l.mp4 || data/rawClips/istl9l.mp4 || data/rawClips/istl9l.mp4 || data/rawClips/istl9l.mp4 || 
+                              data/rawClips/j0rc4e.mp4 || data/rawClips/j0rc4e.mp4 || data/rawClips/j0rc4e.mp4 || data/rawClips/j0rc4e.mp4 || 
+                              data/rawClips/j1emzo.mp4 || data/rawClips/j1emzo.mp4 || data/rawClips/j1emzo.mp4 || data/rawClips/j1emzo.mp4 || 
+                              data/rawClips/j1h6ag.mp4 || data/rawClips/j1h6ag.mp4 || data/rawClips/j1h6ag.mp4 || data/rawClips/j1h6ag.mp4 || 
+                              data/rawClips/j13x9a.mp4 || data/rawClips/j13x9a.mp4 || data/rawClips/j13x9a.mp4 || data/rawClips/j13x9a.mp4 || 
+                              data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || 
+                              data/rawClips/j178yb.mp4 || data/rawClips/j178yb.mp4 || data/rawClips/j178yb.mp4 || data/rawClips/j178yb.mp4 || 
+                              
+[2020-09-29 15:40:11.118532]: Expected video length is 0:04:12
+[2020-09-29 15:40:12.040974]: Actual video length is 0:04:12 and contains 9 videos. All file paths are listed below
+[2020-09-29 15:40:12.041402]: data/rawClips/j0dwt4.mp4 || data/rawClips/j0dwt4.mp4 || data/rawClips/j0dwt4.mp4 || data/rawClips/j0dwt4.mp4 || 
+                              data/rawClips/j1dqf3.mp4 || data/rawClips/j1dqf3.mp4 || data/rawClips/j1dqf3.mp4 || data/rawClips/j1dqf3.mp4 || 
+                              data/rawClips/ifgwh9.mp4 || data/rawClips/ifgwh9.mp4 || data/rawClips/ifgwh9.mp4 || data/rawClips/ifgwh9.mp4 || 
+                              data/rawClips/ijagln.mp4 || data/rawClips/ijagln.mp4 || data/rawClips/ijagln.mp4 || data/rawClips/ijagln.mp4 || 
+                              data/rawClips/ijnhm3.mp4 || data/rawClips/ijnhm3.mp4 || data/rawClips/ijnhm3.mp4 || data/rawClips/ijnhm3.mp4 || 
+                              data/rawClips/j11kle.mp4 || data/rawClips/j11kle.mp4 || data/rawClips/j11kle.mp4 || data/rawClips/j11kle.mp4 || 
+                              data/rawClips/if697q.mp4 || data/rawClips/if697q.mp4 || data/rawClips/if697q.mp4 || data/rawClips/if697q.mp4 || 
+                              data/rawClips/j1jy0t.mp4 || data/rawClips/j1jy0t.mp4 || data/rawClips/j1jy0t.mp4 || data/rawClips/j1jy0t.mp4 || 
+                              data/rawClips/j056po.mp4 || data/rawClips/j056po.mp4 || data/rawClips/j056po.mp4 || data/rawClips/j056po.mp4 || 
+                              
+[2020-09-29 15:45:46.985762]: Expected video length is 0:04:40
+[2020-09-29 15:45:48.647171]: Actual video length is 0:04:40 and contains 13 videos. All file paths are listed below
+[2020-09-29 15:45:48.647437]: data/rawClips/j0yfse.mp4 || data/rawClips/j0yfse.mp4 || data/rawClips/j0yfse.mp4 || data/rawClips/j0yfse.mp4 || 
+                              data/rawClips/j0kjtm.mp4 || data/rawClips/j0kjtm.mp4 || data/rawClips/j0kjtm.mp4 || data/rawClips/j0kjtm.mp4 || 
+                              data/rawClips/j0ypvu.mp4 || data/rawClips/j0ypvu.mp4 || data/rawClips/j0ypvu.mp4 || data/rawClips/j0ypvu.mp4 || 
+                              data/rawClips/ir4mnd.mp4 || data/rawClips/ir4mnd.mp4 || data/rawClips/ir4mnd.mp4 || data/rawClips/ir4mnd.mp4 || 
+                              data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || data/rawClips/irfxoe.mp4 || 
+                              data/rawClips/j1dlx3.mp4 || data/rawClips/j1dlx3.mp4 || data/rawClips/j1dlx3.mp4 || data/rawClips/j1dlx3.mp4 || 
+                              data/rawClips/j1j265.mp4 || data/rawClips/j1j265.mp4 || data/rawClips/j1j265.mp4 || data/rawClips/j1j265.mp4 || 
+                              data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || data/rawClips/j11cx0.mp4 || 
+                              data/rawClips/j0ggb5.mp4 || data/rawClips/j0ggb5.mp4 || data/rawClips/j0ggb5.mp4 || data/rawClips/j0ggb5.mp4 || 
+                              data/rawClips/j1c8o7.mp4 || data/rawClips/j1c8o7.mp4 || data/rawClips/j1c8o7.mp4 || data/rawClips/j1c8o7.mp4 || 
+                              data/rawClips/j1jv83.mp4 || data/rawClips/j1jv83.mp4 || data/rawClips/j1jv83.mp4 || data/rawClips/j1jv83.mp4 || 
+                              data/rawClips/is2m8h.mp4 || data/rawClips/is2m8h.mp4 || data/rawClips/is2m8h.mp4 || data/rawClips/is2m8h.mp4 || 
+                              data/rawClips/izxxc7.mp4 || data/rawClips/izxxc7.mp4 || data/rawClips/izxxc7.mp4 || data/rawClips/izxxc7.mp4 || 
+                              
+[2020-09-29 15:52:19.531632]: Expected video length is 0:04:58
+[2020-09-29 15:52:21.277161]: Actual video length is 0:04:58 and contains 16 videos. All file paths are listed below
+[2020-09-29 15:52:21.277483]: data/rawClips/j0c0dj.mp4 || data/rawClips/j0c0dj.mp4 || data/rawClips/j0c0dj.mp4 || data/rawClips/j0c0dj.mp4 || 
+                              data/rawClips/izve6l.mp4 || data/rawClips/izve6l.mp4 || data/rawClips/izve6l.mp4 || data/rawClips/izve6l.mp4 || 
+                              data/rawClips/j10r7i.mp4 || data/rawClips/j10r7i.mp4 || data/rawClips/j10r7i.mp4 || data/rawClips/j10r7i.mp4 || 
+                              data/rawClips/j0dwt4.mp4 || data/rawClips/j0dwt4.mp4 || data/rawClips/j0dwt4.mp4 || data/rawClips/j0dwt4.mp4 || 
+                              data/rawClips/j1jkz8.mp4 || data/rawClips/j1jkz8.mp4 || data/rawClips/j1jkz8.mp4 || data/rawClips/j1jkz8.mp4 || 
+                              data/rawClips/j1c5r4.mp4 || data/rawClips/j1c5r4.mp4 || data/rawClips/j1c5r4.mp4 || data/rawClips/j1c5r4.mp4 || 
+                              data/rawClips/j0lik6.mp4 || data/rawClips/j0lik6.mp4 || data/rawClips/j0lik6.mp4 || data/rawClips/j0lik6.mp4 || 
+                              data/rawClips/j16fss.mp4 || data/rawClips/j16fss.mp4 || data/rawClips/j16fss.mp4 || data/rawClips/j16fss.mp4 || 
+                              data/rawClips/izi8ht.mp4 || data/rawClips/izi8ht.mp4 || data/rawClips/izi8ht.mp4 || data/rawClips/izi8ht.mp4 || 
+                              data/rawClips/j0if3y.mp4 || data/rawClips/j0if3y.mp4 || data/rawClips/j0if3y.mp4 || data/rawClips/j0if3y.mp4 || 
+                              data/rawClips/j0ie6d.mp4 || data/rawClips/j0ie6d.mp4 || data/rawClips/j0ie6d.mp4 || data/rawClips/j0ie6d.mp4 || 
+                              data/rawClips/izipql.mp4 || data/rawClips/izipql.mp4 || data/rawClips/izipql.mp4 || data/rawClips/izipql.mp4 || 
+                              data/rawClips/j1j265.mp4 || data/rawClips/j1j265.mp4 || data/rawClips/j1j265.mp4 || data/rawClips/j1j265.mp4 || 
+                              data/rawClips/j0mobi.mp4 || data/rawClips/j0mobi.mp4 || data/rawClips/j0mobi.mp4 || data/rawClips/j0mobi.mp4 || 
+                              data/rawClips/j09igv.mp4 || data/rawClips/j09igv.mp4 || data/rawClips/j09igv.mp4 || data/rawClips/j09igv.mp4 || 
+                              data/rawClips/j18hpc.mp4 || data/rawClips/j18hpc.mp4 || data/rawClips/j18hpc.mp4 || data/rawClips/j18hpc.mp4 || 
+                              
+[2020-09-29 19:15:45.311983]: Expected video length is 0:04:11
+[2020-09-29 19:15:47.206452]: Actual video length is 0:04:11 and contains 13 videos. All file paths are listed below
+[2020-09-29 19:15:47.207035]: data/rawClips/j0ypvu.mp4 || data/rawClips/j0ypvu.mp4 || data/rawClips/j0ypvu.mp4 || data/rawClips/j0ypvu.mp4 || 
+                              data/rawClips/j142qt.mp4 || data/rawClips/j142qt.mp4 || data/rawClips/j142qt.mp4 || data/rawClips/j142qt.mp4 || 
+                              data/rawClips/im082d.mp4 || data/rawClips/im082d.mp4 || data/rawClips/im082d.mp4 || data/rawClips/im082d.mp4 || 
+                              data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || data/rawClips/j03y33.mp4 || 
+                              data/rawClips/j0b7ez.mp4 || data/rawClips/j0b7ez.mp4 || data/rawClips/j0b7ez.mp4 || data/rawClips/j0b7ez.mp4 || 
+                              data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || data/rawClips/ivvmww.mp4 || 
+                              data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || data/rawClips/j1dhyq.mp4 || 
+                              data/rawClips/j0k5ja.mp4 || data/rawClips/j0k5ja.mp4 || data/rawClips/j0k5ja.mp4 || data/rawClips/j0k5ja.mp4 || 
+                              data/rawClips/iuublq.mp4 || data/rawClips/iuublq.mp4 || data/rawClips/iuublq.mp4 || data/rawClips/iuublq.mp4 || 
+                              data/rawClips/j1h8gc.mp4 || data/rawClips/j1h8gc.mp4 || data/rawClips/j1h8gc.mp4 || data/rawClips/j1h8gc.mp4 || 
+                              data/rawClips/j0alrb.mp4 || data/rawClips/j0alrb.mp4 || data/rawClips/j0alrb.mp4 || data/rawClips/j0alrb.mp4 || 
+                              data/rawClips/ismm4l.mp4 || data/rawClips/ismm4l.mp4 || data/rawClips/ismm4l.mp4 || data/rawClips/ismm4l.mp4 || 
+                              data/rawClips/j1b46g.mp4 || data/rawClips/j1b46g.mp4 || data/rawClips/j1b46g.mp4 || data/rawClips/j1b46g.mp4 || 
+                              
+[2020-09-29 19:16:39.127299]: Expected video length is 0:04:52
+[2020-09-29 19:16:40.803512]: Actual video length is 0:04:52 and contains 14 videos. All file paths are listed below
+[2020-09-29 19:16:40.803815]: data/rawClips/izt7dq.mp4 || data/rawClips/izt7dq.mp4 || data/rawClips/izt7dq.mp4 || data/rawClips/izt7dq.mp4 || 
+                              data/rawClips/j1jv83.mp4 || data/rawClips/j1jv83.mp4 || data/rawClips/j1jv83.mp4 || data/rawClips/j1jv83.mp4 || 
+                              data/rawClips/j0h7u7.mp4 || data/rawClips/j0h7u7.mp4 || data/rawClips/j0h7u7.mp4 || data/rawClips/j0h7u7.mp4 || 
+                              data/rawClips/j1a8ha.mp4 || data/rawClips/j1a8ha.mp4 || data/rawClips/j1a8ha.mp4 || data/rawClips/j1a8ha.mp4 || 
+                              data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || data/rawClips/iwpxd6.mp4 || 
+                              data/rawClips/j141yc.mp4 || data/rawClips/j141yc.mp4 || data/rawClips/j141yc.mp4 || data/rawClips/j141yc.mp4 || 
+                              data/rawClips/j13gd7.mp4 || data/rawClips/j13gd7.mp4 || data/rawClips/j13gd7.mp4 || data/rawClips/j13gd7.mp4 || 
+                              data/rawClips/ii3ksy.mp4 || data/rawClips/ii3ksy.mp4 || data/rawClips/ii3ksy.mp4 || data/rawClips/ii3ksy.mp4 || 
+                              data/rawClips/inh7mu.mp4 || data/rawClips/inh7mu.mp4 || data/rawClips/inh7mu.mp4 || data/rawClips/inh7mu.mp4 || 
+                              data/rawClips/j04o7n.mp4 || data/rawClips/j04o7n.mp4 || data/rawClips/j04o7n.mp4 || data/rawClips/j04o7n.mp4 || 
+                              data/rawClips/j1ff9g.mp4 || data/rawClips/j1ff9g.mp4 || data/rawClips/j1ff9g.mp4 || data/rawClips/j1ff9g.mp4 || 
+                              data/rawClips/j0x4oi.mp4 || data/rawClips/j0x4oi.mp4 || data/rawClips/j0x4oi.mp4 || data/rawClips/j0x4oi.mp4 || 
+                              data/rawClips/iv0jus.mp4 || data/rawClips/iv0jus.mp4 || data/rawClips/iv0jus.mp4 || data/rawClips/iv0jus.mp4 || 
+                              data/rawClips/j0gksg.mp4 || data/rawClips/j0gksg.mp4 || data/rawClips/j0gksg.mp4 || data/rawClips/j0gksg.mp4 || 
+                              
+[2020-09-29 19:22:36.032502]: Collected clips and edited video. Process took 355.2283 seconds

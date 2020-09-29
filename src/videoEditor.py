@@ -3,6 +3,7 @@ import time
 import random
 import datetime
 from moviepy.editor import VideoFileClip, concatenate_videoclips
+from moviepy.audio.fx.audio_normalize import audio_normalize
 from utils import prettyPrint, bcolors
 
 def GenerateVideo():
@@ -43,9 +44,9 @@ def GenerateVideo():
     startTime = time.perf_counter()
     clipData = []
     for path in clipPaths:
-        clipData.append(VideoFileClip(path))
+        clipData.append(audio_normalize(VideoFileClip(path)))
     finalVideo = concatenate_videoclips(clipData, method='compose')
-    finalVideo.write_videofile("data/output.mp4", fps='30')
+    finalVideo.write_videofile("data/output.mp4", fps=30)
 
     # A little alert to let the user know the function is over and how long it took
     endTime = time.perf_counter()
