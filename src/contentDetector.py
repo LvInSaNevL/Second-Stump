@@ -10,7 +10,8 @@ ytSources = ["https://www.youtube.com/watch?v=cRguIOOiktg"]
 redditSources = ["TikTokCringe",
                  "holdmycosmo",
                  "Whatcouldgowrong",
-                 "holdmybeer"]
+                 "holdmybeer",
+                 "perfectlycutscreams"]
 
 # Runs through the youtube sources and finds any new content to download
 def youtube_detector(timestamp):

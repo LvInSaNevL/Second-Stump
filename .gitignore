@@ -2,8 +2,9 @@
 data/*.mp4
 data/rawClips
 data/rawVideos
+data/sync_data
 data/auth.json
-
+inputPaths.txt
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudio,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudio,visualstudiocode

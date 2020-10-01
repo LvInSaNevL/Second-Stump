@@ -17,7 +17,8 @@ def timeManager(upload):
 # Checks to make sure the file structure exists, creates it if it doesnt
 fileStructure = ["data",
                  "data/rawVideos",
-                 "data/rawClips"]
+                 "data/rawClips",
+                 "data/sync_data/rawClips"]
 
 for dir in fileStructure:
     if not os.path.exists(dir):
