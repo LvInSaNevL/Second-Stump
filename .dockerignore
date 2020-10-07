@@ -1,0 +1,10 @@
+# Files that dont need to be moved to the container
+
+*/.vscode
+*/assets
+*/data/rawClips
+*/data/rawVideos
+*/data/sync_data
+*/data/authExample.json
+*/data/output*
+*/tools

@@ -1,3 +1,4 @@
+import os
 import datetime
 
 class bcolors:
@@ -14,3 +15,7 @@ def prettyPrint(color, text):
     logfile = open("data/logfile","a")
     logfile.write("[{}]: {}\n".format(datetime.datetime.now(), text))
     print(color + text + bcolors.ENDC)
+
+def fullPath(path):
+    cwd = os.getcwd() + "/"
+    return (cwd + path)
