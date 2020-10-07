@@ -2,19 +2,30 @@ import os, sys
 import time
 import random
 import datetime
+import threading
+from filelock import Timeout, FileLock
+
 from utils import prettyPrint, bcolors, fullPath
 
 def VideoFormatter(target):
-    # Formats the video and prepares it for use
+    targetPath = fullPath("data/rawClips/{}.mp4".format(target))
+    outputPath = fullPath("data/sync_data/{}.mp4".format(target))
+
     prettyPrint(bcolors.OKBLUE, "Formatting data/rawClips/{}.mp4".format(target))
-    prettyPrint(bcolors.ENDC, os.popen("ffmpeg -i {} -vf 'split[original][copy];[copy]scale=ih*16/9:-1,crop=h=iw*9/16,gblur=sigma=20[blurred];[blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2' -video_track_timescale 29971 -ac 1 {}".format(fullPath("data/rawClips/{}.mp4".format(target)), fullPath("data/sync_data/{}.mp4".format(target)))).read())
-    # Checks to make sure all the videos are valid files
-    for clip in os.listdir("data/sync_data"):
-        try: 
-            float(os.popen("ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {}".format(fullPath("data/sync_data/{}.mp4".format(target)))).read())
-        except Exception as e:
-            prettyPrint(bcolors.WARNING, "Non-viable file. Error code {}".format(e))
-            os.remove(fullPath("data/rawClips/{}".format(clip)))
+    # This is a really long command so here are a bunch of comments explaining it
+    # Step #1: FFMPEG makes two copies, [original] and [copy]
+    # Step #2: Take [copy] and scale it to 16/9 so all videos are the same size, and apply a blur effect to it
+    # Step #3: Append [original] on top of [copy] and output the finished video to data/sync_data
+    prettyPrint(bcolors.ENDC, os.popen("ffmpeg -i {} -vf 'split[original][copy];[copy]scale=ih*16/9:-1,crop=h=iw*9/16,gblur=sigma=20[blurred];[blurred][original]overlay=(main_w-overlay_w)/2:(main_h-overlay_h)/2' -video_track_timescale 29971 -ac 1 {}".format(targetPath, outputPath)).read())
+    # Checks to make sure the video are valid files
+    try: 
+        float(os.popen("ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {}".format(outputPath)).read())
+    except Exception as e:
+        prettyPrint(bcolors.WARNING, "Non-viable file, file will be removed. Error code {}".format(e))
+        os.remove(outputPath)
+    
+    # Cleans up the files and exist the thread
+    os.remove(targetPath); sys.exit("Exiting the thread")
 
 def GenerateVideo():
     # Gets minimum length of video (between 11 and 14 minutes)

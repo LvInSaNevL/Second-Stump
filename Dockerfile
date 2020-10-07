@@ -44,13 +44,15 @@ RUN pip3 install --force-reinstall \
          praw \
          google-api-python-client \
          google-auth-oauthlib \
-         google-auth-httplib2 
+         google-auth-httplib2 \
+         filelock
 
 # Just makes sure everything is up to date and good to go
 RUN apt-get update && apt-get autoremove && apt-get upgrade
 
 # Coping the source files
 COPY . /secondStump
+COPY data/auth.json /secondStump/data/auth.json
 
 # Setting up Docker
 EXPOSE 7800
