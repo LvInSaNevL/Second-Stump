@@ -27,7 +27,7 @@ RUN apt-get install -y \
             youtube-dl \
             ffmpeg \
             libdvdread7 \
-            tzdata
+            tzdata 
 RUN apt-get clean && apt-get update
 
 # Install MKVToolNix
@@ -42,13 +42,17 @@ RUN pip3 install --force-reinstall \
          scenedetect[opencv] \
          schedule \
          praw \
-         google-api-python-client \
-         google-auth-oauthlib \
-         google-auth-httplib2 \
-         filelock
+         filelock \
+         selenium \
+         webdriver-manager \
+         names
 
 # Just makes sure everything is up to date and good to go
 RUN apt-get update && apt-get autoremove && apt-get upgrade
+
+# Build the file structure
+RUN mkdir /secondStump \
+          /secondStump/data
 
 # Coping the source files
 COPY . /secondStump

@@ -1,9 +1,12 @@
 # Second-Stump
-An experimental bot to automate meme compilations
+An experimental bot to automate meme compilations. For current to do list and future features visit the [Trello Page](https://trello.com/b/MlDaRKps/second-stump)
 
 
 ### Startup Guide
 1. Copy data from [data/authExample.json](data/authExample.json) into a file called `data/auth.json`, and replace the placeholder information with your own. 
+2. Copy your user data from chrome into `data/browser/`
+    * To generate run the command `/usr/bin/google-chrome --user-data-dir=`[username]` studio.youtube.com` and log into the account of the youtube channel
+    * This **must** happen on a device with a screen and copied to your server **before** deploying to Docker
 2. If you are running this from the command line you can run the command `src/main.py` and pass in one of the command line arguments, which are listed below.
     * `update`: Runs through the sources list and downloads any new content
     * `new`: Edits any longer compilation videos that may exist and generate a new finished video

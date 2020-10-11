@@ -5,7 +5,7 @@ import datetime
 import threading
 from filelock import Timeout, FileLock
 
-from utils import prettyPrint, bcolors, fullPath
+from tooling import prettyPrint, bcolors, fullPath
 
 def VideoFormatter(target):
     targetPath = fullPath("data/rawClips/{}.mp4".format(target))

@@ -5,6 +5,7 @@ data/rawVideos
 data/sync_data
 data/auth.json
 data/output
+data/browser/*
 inputPaths.txt
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudio,visualstudiocode

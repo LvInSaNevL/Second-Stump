@@ -6,7 +6,7 @@ import praw
 import threading
 from filelock import Timeout, FileLock
 
-from utils import prettyPrint, bcolors, fullPath
+from tooling import prettyPrint, bcolors, fullPath
 from videoSpliter import cut_video
 from videoEditor import VideoFormatter
 
