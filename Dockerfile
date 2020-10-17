@@ -14,8 +14,12 @@ LABEL org.label-schema.build-date=$BUILD_DATE
 ENV TZ=America/Indiana/Indianapolis
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
+# Fixing an error that apt throws
+# https://github.com/phusion/baseimage-docker/issues/58
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+
 # Install apt-get dependencies
-RUN apt-get clean && apt-get update
+RUN apt-get clean -y && apt-get update -y
 RUN apt-get install -y \
             --no-install-recommends apt-utils \
             ca-certificates \
@@ -27,11 +31,14 @@ RUN apt-get install -y \
             youtube-dl \
             ffmpeg \
             libdvdread7 \
-            tzdata 
-RUN apt-get clean && apt-get update
+            tzdata \
+            apt-transport-https \
+            python3.8 \
+            nano
+RUN apt-get clean -y && apt-get update -y
 
 # Install MKVToolNix
-RUN wget -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | apt-key add - && \
+RUN wget --no-check-certificate -q -O - https://mkvtoolnix.download/gpg-pub-moritzbunkus.txt | apt-key add - && \
     echo "deb https://mkvtoolnix.download/ubuntu/ focal main" >> /etc/apt/sources.list.d/mkvtoolnix.download.list && \
     echo "deb-src https://mkvtoolnix.download/ubuntu/ focal main" >> /etc/apt/sources.list.d/mkvtoolnix.download.list && \
     apt-get update && \
@@ -48,7 +55,9 @@ RUN pip3 install --force-reinstall \
          names
 
 # Just makes sure everything is up to date and good to go
-RUN apt-get update && apt-get autoremove && apt-get upgrade
+RUN apt-get update -y
+RUN apt-get autoremove -y
+RUN apt-get upgrade -y
 
 # Build the file structure
 RUN mkdir /secondStump \
@@ -56,7 +65,7 @@ RUN mkdir /secondStump \
 
 # Coping the source files
 COPY . /secondStump
-COPY data/auth.json /secondStump/data/auth.json
+COPY data /secondStump/src/data
 
 # Setting up Docker
 EXPOSE 7800

@@ -1,6 +1,7 @@
 import os
 import sys
 import schedule
+import time as t
 from datetime import datetime, time
 
 from contentDetector import detectorDirector
@@ -42,7 +43,7 @@ if (sys.argv[1] == "deploy"):
     """At the top of every hour `videoUploader/newUpload()` is called to upload the most recent video to YouTube. This is currently not working"""
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        t.sleep(1)
     exit()
 else:
     print("Please use a valid command line argument")

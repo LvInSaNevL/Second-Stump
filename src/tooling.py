@@ -12,10 +12,10 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 def prettyPrint(color, text):
-    logfile = open("data/logfile","a")
+    logfile = open(fullPath("data/logfile"),"a")
     logfile.write("[{}]: {}\n".format(datetime.datetime.now(), text))
     print(color + text + bcolors.ENDC)
 
 def fullPath(path):
-    cwd = os.getcwd() + "/"
+    cwd = os.path.dirname(os.path.abspath(__file__)) + "/"
     return (cwd + path)

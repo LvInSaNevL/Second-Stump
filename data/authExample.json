@@ -2,7 +2,7 @@
     "reddit": {
         "client_id": "your_client_id",
         "client_secret": "your_client_secret",
-        "user_agent": "your_user_agent",
+        "user_agent": "An experimental bot to automate meme compilations, by Lv_InSaNe_vL",
         "username": "your_reddit_username",
         "password": "your_reddit_password"
     },
