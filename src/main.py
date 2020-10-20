@@ -38,7 +38,7 @@ def main():
     while (True):
         # Fancy CLI keep alive indicator
         now = t.strftime('%H:%M:%S')
-        currentMinute = t.strftime('%S')
+        currentMinute = t.strftime('%M')
         if (len(processThreads) == 0):
             sys.stdout.write("\r{} Current time is {}".format(next(spinner), now))
             sys.stdout.flush()
