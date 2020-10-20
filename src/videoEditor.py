@@ -73,7 +73,7 @@ def GenerateVideo():
     # Finally edits the clips togeather
     vidIndex = len(os.listdir(fullPath("/data/output"))) + 1
     prettyPrint(bcolors.ENDC, os.popen("ffmpeg -f concat -safe 0 -i {} -c copy {}".format(fullPath("inputPaths.txt"), fullPath("data/output/video_{}.mp4".format(vidIndex)))).read())
-    os.remove("inputPaths.txt")
+    os.remove(fullPath("inputPaths.txt"))
 
     # A little alert to let the user know the function is over and how long it took
     endTime = time.perf_counter()

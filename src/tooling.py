@@ -19,3 +19,9 @@ def prettyPrint(color, text):
 def fullPath(path):
     cwd = os.path.dirname(os.path.abspath(__file__)) + "/"
     return (cwd + path)
+
+def spinning_cursor():
+    frames = ["◰", "◳", "◲", "◱"]
+    while True:
+        for cursor in frames:
+            yield cursor
