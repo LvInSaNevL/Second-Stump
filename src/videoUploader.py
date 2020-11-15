@@ -9,31 +9,11 @@ from webdriver_manager.chrome import ChromeDriver
 from selenium.webdriver.common.keys import Keys
 from tooling import prettyPrint, bcolors, fullPath
 
-titles = ["Funny",
-          "Dank",
-          "New",
-          "Throwback",
-          "Best",
-          "Forgettable",
-          "Clean",
-          "Closet",
-          "Collectable",
-          "Different",
-          "Top",
-          "Doodle",
-          "Old Fashioned",
-          "Dumb",
-          "Caveman",
-          "Juicy",
-          "Parental",
-          "Unexpected",
-          "Unusual",
-          "Strange",
-          "Powerful",
-          "Cat",
-          "Dog",
-          "Random",
-          "Iconic"]
+titles = []
+# load list from a file (capitalize and remove trailing \n characters)
+with open(fullPath('data/adjectives.txt')) as f:
+    titles = [line.capitalize().rstrip() for line in f]
+
 
 arguments = ["--disable-web-security",
              "--allow-running-insecure-content",
